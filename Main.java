@@ -6,7 +6,7 @@ public class Main {
 
         System.out.println("Application started.");
 
-        Image image = new RealImage("photo.jpg");
+        Image image = new ProxyImage("photo.jpg");
 
         System.out.println("Proxy created, but RealImage not loaded yet.");
 
